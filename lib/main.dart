@@ -32,8 +32,10 @@ class MyHomePage extends StatelessWidget {
 
     if (permission == PermissionStatus.granted) {
       // Location permission granted
+      print("OK");
     } else {
       // Location permission not granted
+      print("not OK");
     }
   }
 
